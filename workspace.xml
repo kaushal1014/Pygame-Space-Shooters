@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="46cf1172-9342-412f-ad43-efa167b393bb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fUBeplq4kbTxZo9MLapVtvC1yj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pygame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="46cf1172-9342-412f-ad43-efa167b393bb" name="Default Changelist" comment="" />
+      <created>1596262888790</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596262888790</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="701" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596380838333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596380838333" />
+    <state x="709" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1596356847547">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="709" y="356" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596356847547" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1596357728397">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596357728397" />
+    <state x="830" y="413" key="Github.ShareDialog" timestamp="1596357250301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="830" y="413" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596357250301" />
+    <state width="639" height="416" key="GridCell.Tab.0.bottom" timestamp="1596384276811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="29" height="497" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596374565236" />
+    <state width="639" height="416" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596384276811" />
+    <state width="639" height="416" key="GridCell.Tab.0.center" timestamp="1596384276811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="29" height="497" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596374565236" />
+    <state width="639" height="416" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596384276811" />
+    <state width="639" height="416" key="GridCell.Tab.0.left" timestamp="1596384276811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="29" height="497" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596374565235" />
+    <state width="639" height="416" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596384276811" />
+    <state width="639" height="416" key="GridCell.Tab.0.right" timestamp="1596384276811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="29" height="497" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596374565236" />
+    <state width="639" height="416" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596384276811" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1596358352006">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596358352006" />
+    <state x="681" y="261" width="540" height="524" key="StructurePopup" timestamp="1596298337352">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="261" width="540" height="524" key="StructurePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1596298337352" />
+    <state x="732" y="463" key="com.intellij.ide.util.TipDialog" timestamp="1596310861548">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="732" y="463" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596310861548" />
+  </component>
+</project>
