@@ -192,7 +192,7 @@ while running:
 
         enemyX[i] += changeEnemyX[i]
         if enemyX[i] <= 0:
-            changeEnemyX[i] = 2
+            changeEnemyX[i] = 1
             enemyY[i] += changeEnemyY[i]
         elif enemyX[i] >= 770:
             changeEnemyX[i] = -2
