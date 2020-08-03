@@ -1,9 +1,8 @@
-#By Kaushal Patil
 import pygame
 from pygame import mixer
 import math
 import random
-
+import time
 pygame.init()
 screen = pygame.display.set_mode((800, 600))
 
@@ -171,9 +170,22 @@ while running:
     # enemy movement and boarder, so the enemy does'nt go outside the screen.
     for i in range(number_of_enemies):
         # GAME OVER HAHAHAH
-        if enemyY[i] > 467:
+        if enemyY[i] > 200:
             for j in range(number_of_enemies):
                 mixer.music.stop()
+                loser = mixer.Sound("gameover.wav")
+                loser.play()
+
+
+
+
+
+
+                #     mixer.music.stop()
+                #    loser = mixer.Sound("gameover.wav")
+                #   chan1 = pygame.mixer.find_channel()
+                #  chan1.queue(loser)
+                # loser.play()
 
                 screen.fill((0, 0, 0))
                 enemyX[j] = 200000
@@ -189,6 +201,7 @@ while running:
                 overX = 300
                 overY = 250
                 BYEBYE(overX, overY)
+
 
         enemyX[i] += changeEnemyX[i]
         if enemyX[i] <= 0:
@@ -225,6 +238,7 @@ while running:
     playerposition(playerX, playerY)
     enemyposition(enemyX[i], enemyY[i], i)
     scoreShow()
+
 
     # updates the movement of the image.
     pygame.display.update()
