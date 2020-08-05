@@ -2,7 +2,7 @@ import pygame
 from pygame import mixer
 import math
 import random
-import time
+
 pygame.init()
 screen = pygame.display.set_mode((800, 600))
 
@@ -13,7 +13,7 @@ icon = pygame.image.load('logo.png')
 pygame.display.set_icon(icon)
 mixer.music.load("background.wav")
 mixer.music.play(-1)
-# Player.
+
 player = pygame.image.load('space-invaders.png')
 xchangeplayer = 0
 ychangeplayer = 0
@@ -170,22 +170,12 @@ while running:
     # enemy movement and boarder, so the enemy does'nt go outside the screen.
     for i in range(number_of_enemies):
         # GAME OVER HAHAHAH
-        if enemyY[i] > 200:
+        if enemyY[i] > 467:
             for j in range(number_of_enemies):
                 mixer.music.stop()
                 loser = mixer.Sound("gameover.wav")
                 loser.play()
 
-
-
-
-
-
-                #     mixer.music.stop()
-                #    loser = mixer.Sound("gameover.wav")
-                #   chan1 = pygame.mixer.find_channel()
-                #  chan1.queue(loser)
-                # loser.play()
 
                 screen.fill((0, 0, 0))
                 enemyX[j] = 200000
@@ -196,12 +186,11 @@ while running:
                 planetx2 = 45656
                 planetx3 = 546456
                 planetx4 = 4646564
-                textX = 345454
+
                 gameOver_text = pygame.font.Font("freesansbold.ttf", 50)
                 overX = 300
                 overY = 250
                 BYEBYE(overX, overY)
-
 
         enemyX[i] += changeEnemyX[i]
         if enemyX[i] <= 0:
@@ -221,6 +210,9 @@ while running:
 
             enemyX[i] = random.randint(0, 770)
             enemyY[i] = random.randint(50, 100)
+            changeEnemyX[i] += 1
+            changeEnemyY[i] += 1
+
         enemyposition(enemyX[i], enemyY[i], i)
 
     # lets player shoot multiple bullets.
@@ -239,6 +231,6 @@ while running:
     enemyposition(enemyX[i], enemyY[i], i)
     scoreShow()
 
-
     # updates the movement of the image.
     pygame.display.update()
+
