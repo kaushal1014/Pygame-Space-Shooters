@@ -167,7 +167,7 @@ while running:
     if playerX >= 770:
         playerX = 770
 
-    # enemy movement and boarder, so the enemy does'nt go outside the screen.
+    # enemy movement and boarder, so the enemy doesn't go outside the screen.
     for i in range(number_of_enemies):
         # GAME OVER HAHAHAH
         if enemyY[i] > 467:
