@@ -12,7 +12,7 @@ pygame.display.set_caption("Space Shooters")
 icon = pygame.image.load('logo.png')
 pygame.display.set_icon(icon)
 mixer.music.load("background.wav")
-mixer.music.play(-1)
+mixer.music.play(-1) 
 
 player = pygame.image.load('space-invaders.png')
 xchangeplayer = 0
@@ -29,7 +29,7 @@ enemyY = []
 number_of_enemies = 8
 
 for i in range(number_of_enemies):
-    enemy.append(pygame.image.load('alien2.png'))
+    enemy.append(pygame.image.load('alien.png'))
     changeEnemyX.append(1)
     changeEnemyY.append(30)
     enemyX.append(random.randint(0, 770))
